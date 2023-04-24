@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+ul {
+    padding-left: 70px;
+
+}
+h2 {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+table  {
+    border-collapse: border;
+    margin-left: 10px;
+}
+/* .tablecash tr,td,th  {
+    border: 1px solid black;
+} */
+td {
+    padding: 2px 0px 0px 2px;
+}
+.flag {
+    width: 30px;
+    height: 30px;
+    text-align: left;
+}
+th {
+    padding: 0px 5px 5px 5px;
+}
+body {
+    font-weight: 900;
+}
