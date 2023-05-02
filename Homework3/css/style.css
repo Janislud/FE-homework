@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    width: 356px;
+    height: 32px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 24px;
+    margin-top: 40px;
+    margin-left: 32px;
+    margin-right: 32px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    position: relative;
+    width: 420px;
+    height: 426px;
+    box-shadow: 0px 2px 8px;
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-top: 150px;
+    caret-color: orange;
+
+}
+
+#email-input {
+    width: 356px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 16px;
+    gap: 10px;
+    background: #FFFFFF;
+    border: 1px solid #CFD8DC;
+    border-radius: 12px;
+    margin-bottom: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+
+    /* margin-top: ; */
+}
+
+#email-input:focus {
+    border-color: #FFE44D;
+}
+
+form input:focus-visible {
+    outline: none;
+    border-color: #FFE44D;
+}
+
+
+#pasword-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 16px;
+    gap: 10px;
+    width: 356px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #CFD8DC;
+    border-radius: 12px;
+    margin-bottom: 24px;
+}
+
+p {
+    width: 356px;
+    height: 42px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #7B8E98;
+    margin-bottom: 24px;
+    resize: none;
+    border: none;
+    overflow: hidden;
+    /* text-decoration: overline; */
+}
+
+textarea :focus {
+    outline: none;
+    resize: none;
+    border: none;
+}
+
+.reg {
+    background-color: #FFE44D;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 24px;
+    width: 356px;
+    height: 48px;
+    border-radius: 55px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    border: none;
+    font-size: 16px;
+}
+
+.enter {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 24px;
+    width: 356px;
+    height: 48px;
+    border-radius: 55px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    border: 1px solid gainsboro;
+    font-size: 16px;
+}
+
+a {
+    top:21px;
+    right:21px;
+    position: absolute;
+}
+
